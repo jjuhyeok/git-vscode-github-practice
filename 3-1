@@ -1,0 +1,17 @@
+c=0
+p = int(input())
+
+while(p>=10):
+    if(p>=500):
+        p = p -500
+        c = c+1
+    elif(p>=100):
+        p = p - 100
+        c = c+1
+    elif(p>=50):
+        p = p - 50
+        c = c+  1
+    else:
+        p = p -10
+        c = c+1
+print(c)
